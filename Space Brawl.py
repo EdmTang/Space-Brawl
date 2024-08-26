@@ -1,6 +1,5 @@
 # Hero has to fight his way through mini bosses to win the war. Dodge bullets and survive or start over again.
-from gamelib import Game, Image, Animation, randint, mouse, keys
-from gamelib import K_UP, K_DOWN, K_LEFT, K_RIGHT, K_SPACE  # Constants
+from gamelib import *
 
 game = Game(1000, 800, "Space Brawl")
 logo = Image("assets/logo.png", game)
